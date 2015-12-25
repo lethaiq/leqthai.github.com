@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <!--Import Google Icon Font-->
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="css/common.css"  media="screen,projection"/>
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   </head>
+
+   <body>
+     <nav>
+      <div class="nav-wrapper red darken-2">
+        <a href="index.html" class="brand-logo">Thai Q. Le</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Top</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.html">Top</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+     <div class="container">
+       <!-- Page Layout here -->
+       <div class="row">
+         <div class="col s12 m12 l12">
+           <section>
+             <h3 class="center">Research & Life</h3>
+             <img class="profile" src="" />
+             <ul class="news">
+               <li><span class="news_date">December 2015 ~</span>Research focus: <i>Subspace Clustering</i></li>
+               <li><span class="news_date">1 December, 2015</span>Currently looking for a PhD position in Computer Science research, starting from Fall 2016. My CV can be found <a href="cv/CV_LeQuangThai_01122015.pdf">here.</a></li>
+               <li><span class="news_date">20 September, 2015</span>Graduated from Ritsumeikan Asia Pacific University.</li>
+             </ul>
+           </section>
+
+           <section>
+             <h3 class="center clear">Skills</h3>
+             <ul class="skills">
+               <li>Over 2 years undergraduate research experience in Operations Research & Data Mining.</li>
+               <li>Over 2 years industrial experience in Web System Development.</li>
+               <li>Trilingual: English - Japanese - Vietnamese.</li>
+             </ul>
+           </section>
+
+           <section>
+             <h3 class="center clear">Others</h3>
+             <ul class="others">
+               <li>Love people.</li>
+               <li>Favorite Kanji: 和 (Hoà).</li>
+               <li>Play basketball since 16 | PG. CP3's follower.</li>
+               <li>Passionate in programming, teaching, and talking.</li>
+               <li>Born in Nha Trang city, Vietnam. Lived in Ho Chi Minh (Vietnam) & Beppu (Japan).</li>
+               <li>Vietnamese name: Lê Quang Thái. Japanese name: レ　クアン　タイ.</li>
+             </ul>
+           </section>
+         </div>
+       </div>
+
+
+
+        <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+          <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+          </a>
+          <ul>
+            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+          </ul>
+        </div>
+
+     </div>
+
+     <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function(){
+           $(".button-collapse").sideNav();
+        });
+     </script>
+   </body>
+ </html>
